@@ -69,7 +69,7 @@ header .navication a {
 }
 
 header .navication a:hover {
-    color: #212829;
+    color: #458992;
 }
 
 header .content .action>a {
@@ -80,7 +80,7 @@ header .content .action>a {
 }
 
 header .content .action>a:hover {
-    color: #212829;
+    color: #458992;
 }
 
 header .content .action>.action-btn {
@@ -311,6 +311,10 @@ header .content .action>.action-btn:hover {
 
 /* =============================== popular =================================== */
 
+.popular .content {
+    padding-top: 80px;
+}
+
 .popular .content .name {
     color: #767E7E;
     font-size: 1.2rem;
@@ -361,7 +365,7 @@ header .content .action>.action-btn:hover {
 }
 
 .popular .content .course-item .item>img {
-    opacity: 0.35;
+    opacity: 0.8;
     border-radius: 8px;
 }
 
@@ -520,6 +524,7 @@ header .content .action>.action-btn:hover {
 .feedback .content .comment-zone .action .action-btn:hover {
     color: #2AC9BF;
     background-color: #FFF;
+    cursor: pointer;
 }
 
 .feedback .group-avatar {
@@ -610,6 +615,10 @@ header .content .action>.action-btn:hover {
 .join .content>.btn {
     height: 68px;
     line-height: 27px;
+}
+
+.join .content>.btn:hover {
+    cursor: pointer;
 }
 
 /* =============================== footer =================================== */
